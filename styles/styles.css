@@ -2,6 +2,114 @@
 /* main portfolio styles */
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
+* {
+	margin: 0; 
+	padding: 0; 
+	border: none; 
+}
 body {
 	font-family: 'Roboto', sans-serif;
 }
+#header {
+	position: relative;
+	display: block; 
+	margin-left: 33%; 
+	margin-top: 60px;	
+	padding: 20px; 
+}
+#nav {
+	text-align: center;
+}
+#nav a {
+	border: 1px solid #5A5A5A;
+	background-color: #B463FF; 
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	color: black;
+}
+.about {
+	border-radius: 50%; 
+	height: 50px; 
+	width: 50px;
+	padding: 35px;
+	display: inline-block;
+	position: relative;
+	margin-top: 150px;
+}
+.works {
+	border-radius: 50%; 
+	height: 50px; 
+	width: 50px;
+	padding: 60px;
+	display: inline-block;
+	position: relative;
+	margin-top: 100px;
+}
+.fun  {
+	border-radius: 50%; 
+	height: 50px; 
+	width: 50px;
+	padding: 50px;
+	display: inline-block;
+	position: relative;
+}
+.contact {
+	border-radius: 50%; 
+	height: 50px; 
+	width: 50px;
+	padding: 40px;
+	display: inline-block;
+	position: relative;
+}
+.cv {
+	border-radius: 50%; 
+	height: 50px; 
+	width: 50px;
+	padding: 30px;
+	display: inline-block;
+	position: relative;
+}
+
+
+/* about me css */
+#navigation li {
+	list-style: none;
+	display: inline; 
+}
+#navigation a {
+	text-decoration: none;
+	color: black; 
+	border: 1px solid black;
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+	background-color: #B463FF;
+	display: inline-block;
+	text-align: center; 
+	padding: 20px; 
+	line-height: 10px;
+}
+
+#container {
+	width: 600px;
+	height: 400px;
+	line-height: 30px; 
+	margin-left: 650px;
+	margin-top: 200px;
+	border: 1px solid black;
+	display: inline-block;
+	position: relative;
+}
+
+.me {
+	height: 400px; 
+	width: auto;
+	margin-bottom: 200px;
+	margin-left: 100px; 
+	position: static;
+	display: inline-block;
+}
+
+/* free time projects/pictures */
+
